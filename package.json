@@ -1,6 +1,10 @@
 {
 	"name": "c-cpp-flag-debugging",
-	"displayName": "C/C++ Debugging with Flags",
+    "displayName": "C/C++ Debugging with Flags",
+    "publisher": "utsavm9",
+    "engine": {
+        "vsocde": "^1.8.0"
+    },
 	"description": "Debug single file C/C++ programs with flags",
 	"version": "0.0.1",
 	"engines": {
@@ -17,7 +21,7 @@
 		"commands": [
 			{
 				"command": "extension.debugFlags",
-				"title": "Debug: C/C++ with flags"
+				"title": "Debug this file: C/C++ with flags"
 			}
 		]
 	},
