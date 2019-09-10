@@ -1,6 +1,6 @@
 {
 	"name": "c-cpp-flag-debugging",
-	"displayName": "C/C++ Debugging with flags",
+	"displayName": "C/C++ Debugging with Flags",
 	"description": "Debug single file C/C++ programs with flags",
 	"version": "0.0.1",
 	"engines": {
@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onCommand:extension.debugFlags"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
+				"command": "extension.debugFlags",
+				"title": "Debug: C/C++ with flags"
 			}
 		]
 	},
